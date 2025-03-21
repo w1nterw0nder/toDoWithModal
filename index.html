@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todoList</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+<body>
+    <h1 class="list-heading">У тебя всё получится ;)</h1>
+    <ol class="todolist"></ol>
+    <div class="list-actions">
+        <button class="list-button" id="addItem">Add</button>
+        <button class="list-button" id="editItem">Edit</button>
+        <button class="list-button" id="deleteItem">Delete</button>
+    </div>
+
+    <!-- Модальное окно -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span id="closeModal" class="close">&times;</span>
+            <h2 id="modalTitle">Добавить задачу</h2>
+            <input type="text" id="taskInput" placeholder="Введите текст задачи">
+            <div class="buttons">
+                <button class="confirm-button" id="modalActionButton">Добавить</button>
+                <button class="close-button" id="closeButton">Назад</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

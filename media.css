@@ -1,0 +1,62 @@
+@media (max-width: 768px) {
+    ol {
+        font-size: 28px;
+    }
+
+    .list-button {
+        font-size: 28px;
+        height: 35px;
+        padding: 0 15px;
+    }
+
+    .modal-content {
+        width: 90%;
+        max-width: 300px;
+    }
+
+    .modal-content input {
+        height: 35px;
+        font-size: 14px;
+    }
+
+    .confirm-button,
+    .close-button {
+        height: 35px;
+        width: 80px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    ol {
+        font-size: 24px;
+        gap: 10px;
+    }
+
+    .list-button {
+        font-size: 24px;
+        height: 30px;
+        padding: 0 10px;
+    }
+
+    .list-actions {
+        gap: 15px;
+    }
+
+    .modal-content {
+        width: 90%;
+        max-width: 250px;
+    }
+
+    .modal-content input {
+        height: 30px;
+        font-size: 12px;
+    }
+
+    .confirm-button,
+    .close-button {
+        height: 30px;
+        width: 70px;
+        font-size: 12px;
+    }
+}
